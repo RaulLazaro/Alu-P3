@@ -1,4 +1,4 @@
-![Alu-P3](img/Front.png)
+![Alu-P3](img/front.png)
 
 ## Introdución
 
