@@ -13,4 +13,9 @@ social:
     - https://www.linkedin.com/in/raullazaro/
 
 google_analytics: UA-147184342-1
-image: /img/front.jpg
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/front.jpg
