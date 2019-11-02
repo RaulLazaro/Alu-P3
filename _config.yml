@@ -12,9 +12,3 @@ social:
     - https://www.linkedin.com/in/raullazaro/
 
 google_analytics: UA-147184342-1
-
-plugins:
-  - jekyll-redirect-from
-  
-whitelist:
-  - jekyll-redirect-from
