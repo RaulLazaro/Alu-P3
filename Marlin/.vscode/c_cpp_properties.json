@@ -1,0 +1,66 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Mac",
+            "macFrameworkPath": [],
+            "includePath": [
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/Marlin",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/SailfishLCD",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
+                "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/Marlin/src/HAL/HAL_LPC1768/include",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/Marlin/src/HAL/HAL_LPC1768/u8g",
+                "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel (1)",
+                "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/SailfishLCD (1)",
+                "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/Marlin",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/SailfishLCD",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/Marlin/src/HAL/HAL_LPC1768/include",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/Marlin/src/HAL/HAL_LPC1768/u8g",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel (1)",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/Documents/GitHub/My-3D-Printer/Marlin/.pio/libdeps/LPC1768/SailfishLCD (1)",
+                    "/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "TARGET_LPC1768",
+                "F_CPU=100000000L",
+                "MCU_LPC1768",
+                "PLATFORMIO=40003",
+                "TARGET_LPC1768",
+                "U8G_HAL_LINKS",
+                "__MARLIN_FIRMWARE__",
+                "ARDUINO_ARCH_LPC176X",
+                "ARDUINOLPC=10805",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cppStandard": "c++17",
+            "compilerPath": "\"/Volumes/Macintosh Data/Usuarios/Raul/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc\" -mthumb -mcpu=cortex-m3"
+        }
+    ],
+    "version": 4
+}

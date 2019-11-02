@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Volumes/Macintosh Data/Users/raul/.platformio/penv/bin:/Volumes/Macintosh Data/Users/raul/.platformio/penv:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\Raul\\.platformio\\penv\\Scripts;C:\\Users\\Raul\\.platformio\\penv;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\Raul\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Raul\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\Raul\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\Raul\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Raul\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\Raul\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}

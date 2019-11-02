@@ -1,2 +1,5 @@
-# Alu_P3
-Impresora con estructura de aluminio adaptable a cualquier volumen de impresión.
+![Alu-P3](img/Front.png)
+
+## Introdución
+
+
