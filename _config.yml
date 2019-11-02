@@ -1,1 +1,14 @@
 theme: jekyll-theme-slate
+show_downloads: "true"
+lang: es
+
+social:
+  type: Person # Person or Organization (defaults to Person)
+  links: # An array of links to social media profiles
+    - https://twitter.com/RaulLazaro_S
+    - https://www.facebook.com/RaulLazaro.San
+    - https://www.instagram.com/raullazaro_s
+    - https://github.com/RaulLazaro
+    - https://www.linkedin.com/in/raullazaro/
+
+google_analytics: UA-147184342-1
