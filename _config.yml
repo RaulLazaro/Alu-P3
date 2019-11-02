@@ -3,6 +3,14 @@ theme: jekyll-theme-slate
 show_downloads: "true"
 lang: es
 
+twitter:
+  username: RaulLazaro_S
+facebook:
+  publisher: RaulLazaro.San
+  app_id:
+instagram: raullazaro_s
+github: RaulLazaro
+linkedin: raullazaro
 social:
   type: Person # Person or Organization (defaults to Person)
   links: # An array of links to social media profiles
