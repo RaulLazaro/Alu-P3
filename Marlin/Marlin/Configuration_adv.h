@@ -2370,7 +2370,7 @@
 #define PHOTO_GCODE
 #if ENABLED(PHOTO_GCODE)
   // A position to move to (and raise Z) before taking the photo
-  #define PHOTO_POSITION { 10, Y_MAX_POS, 0 }  // { xpos, ypos, zraise } (M240 X Y Z)
+  //#define PHOTO_POSITION { 10, Y_MAX_POS, 0 }  // { xpos, ypos, zraise } (M240 X Y Z)
   #define PHOTO_DELAY_MS   5000                            // (ms) Duration to pause before moving back (M240 P)
   #define PHOTO_RETRACT_MM   6.5                          // (mm) E retract/recover for the photo move (M240 R S)
 
