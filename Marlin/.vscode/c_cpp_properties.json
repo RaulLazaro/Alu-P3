@@ -6,44 +6,40 @@
         {
             "name": "Win32",
             "includePath": [
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/Marlin",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/SailfishLCD@src-75ea08fd0b73622d5d2bd72b00fa5eda",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel@src-b8913fb0081efd67e070ccfced61bf6b",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932@src-80756f0cbe68f72229c6991984f228dc/src",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/include",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/Marlin",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/SailfishLCD",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
                 "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
                 "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/Marlin/src/HAL/HAL_LPC1768/include",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/Marlin/src/HAL/HAL_LPC1768/u8g",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/Marlin/src/HAL/LPC1768/include",
+                "c:/Users/Raul/GitHub/alu-p3/Marlin/Marlin/src/HAL/LPC1768/u8g",
                 "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
                 "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
                 "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
                 "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/SailfishLCD",
-                "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
                 "C:/Users/Raul/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/Marlin",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/SailfishLCD@src-75ea08fd0b73622d5d2bd72b00fa5eda",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel@src-b8913fb0081efd67e070ccfced61bf6b",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932@src-80756f0cbe68f72229c6991984f228dc/src",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/include",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/Marlin",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/SailfishLCD",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/TMCStepper_ID5513/src",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
                     "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
                     "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/Marlin/src/HAL/HAL_LPC1768/include",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/Marlin/src/HAL/HAL_LPC1768/u8g",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/Marlin/src/HAL/LPC1768/include",
+                    "c:/Users/Raul/GitHub/alu-p3/Marlin/Marlin/src/HAL/LPC1768/u8g",
                     "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
                     "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
                     "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
                     "C:/Users/Raul/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/Adafruit NeoPixel",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/SailfishLCD",
-                    "c:/Users/Raul/Documents/GitHub/alu-p3/Marlin/.pio/libdeps/LPC1768/U8glib-HAL_ID1932/src",
                     "C:/Users/Raul/.platformio/packages/tool-unity",
                     ""
                 ]
@@ -55,7 +51,7 @@
                 "MCU_LPC1768",
                 "PIO_PLATFORM_VERSION=1001UL",
                 "PIO_FRAMEWORK_VERSION=2002UL",
-                "PLATFORMIO=40100",
+                "PLATFORMIO=40303",
                 "U8G_HAL_LINKS",
                 "__MARLIN_FIRMWARE__",
                 "ARDUINO_ARCH_LPC176X",
@@ -64,7 +60,12 @@
             ],
             "intelliSenseMode": "clang-x64",
             "cppStandard": "c++17",
-            "compilerPath": "\"C:/Users/Raul/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe\" -mthumb -mcpu=cortex-m3"
+            "compilerPath": "C:/Users/Raul/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
         }
     ],
     "version": 4

@@ -46,7 +46,7 @@
 #define INIT2224_REGISTER(REG) TMC2224_n::REG##_t REG##_register = TMC2224_n::REG##_t
 #define SET_ALIAS(TYPE, DRIVER, NEW, ARG, OLD) TYPE (DRIVER::*NEW)(ARG) = &DRIVER::OLD
 
-#define TMCSTEPPER_VERSION 0x000601 // v0.6.1
+#define TMCSTEPPER_VERSION 0x000602 // v0.6.2
 
 class TMCStepper {
 	public:
@@ -350,7 +350,7 @@ class TMC2130Stepper : public TMCStepper {
 
 		static uint32_t spi_speed; // Default 2MHz
 		const uint16_t _pinCS;
-		SW_SPIClass * TMC_SW_SPI = NULL;
+		SW_SPIClass * TMC_SW_SPI = nullptr;
 		static constexpr float default_RS = 0.11;
 
 		int8_t link_index;
@@ -658,8 +658,6 @@ class TMC5130Stepper : public TMC2160Stepper {
 		struct X_ENC_t 		{ constexpr static uint8_t address = 0x39; }; // RW
 		struct ENC_STATUS_t { constexpr static uint8_t address = 0x3B; }; // R+C
 		struct ENC_LATCH_t 	{ constexpr static uint8_t address = 0x3C; }; // R
-		struct MSCNT_t		{ constexpr static uint8_t address = 0x6A; }; // R
-		struct MSCURACT_t 	{ constexpr static uint8_t address = 0x6B; }; // R
 
 		/*
 		INIT_REGISTER(MSLUT0){0};
@@ -812,6 +810,9 @@ class TMC2208Stepper : public TMCStepper {
 			TMC2208Stepper(SerialPort, RS, TMC2208_SLAVE_ADDR)
 			{}
 		#if SW_CAPABLE_PLATFORM
+			TMC2208Stepper(uint16_t SW_RX_pin, uint16_t SW_TX_pin, float RS) :
+				TMC2208Stepper(SW_RX_pin, SW_TX_pin, RS, TMC2208_SLAVE_ADDR)
+				{}
 			TMC2208Stepper(uint16_t SW_RX_pin, uint16_t SW_TX_pin, float RS, bool) :
 				TMC2208Stepper(SW_RX_pin, SW_TX_pin, RS, TMC2208_SLAVE_ADDR)
 				{}
@@ -981,13 +982,13 @@ class TMC2208Stepper : public TMCStepper {
 			TMC2208Stepper(uint16_t SW_RX_pin, uint16_t SW_TX_pin, float RS, uint8_t addr);
 		#endif
 
-		Stream * HWSerial = NULL;
+		Stream * HWSerial = nullptr;
 		#if SW_CAPABLE_PLATFORM
-			SoftwareSerial * SWSerial = NULL;
+			SoftwareSerial * SWSerial = nullptr;
 			const uint16_t RXTX_pin = 0; // Half duplex
 		#endif
 
-		SSwitch *sswitch = NULL;
+		SSwitch *sswitch = nullptr;
 
 		void write(uint8_t, uint32_t);
 		uint32_t read(uint8_t);
@@ -1232,5 +1233,5 @@ class TMC2660Stepper {
 		float holdMultiplier = 0.5;
 		uint32_t spi_speed = 16000000/8; // Default 2MHz
 		uint8_t _savedToff = 0;
-		SW_SPIClass * TMC_SW_SPI = NULL;
+		SW_SPIClass * TMC_SW_SPI = nullptr;
 };
