@@ -17,7 +17,7 @@
  *   GNU General Public License for more details.                           *
  *                                                                          *
  *   To view a copy of the GNU General Public License, go to the following  *
- *   location: <http://www.gnu.org/licenses/>.                              *
+ *   location: <https://www.gnu.org/licenses/>.                             *
  ****************************************************************************/
 
 #pragma once
@@ -27,6 +27,14 @@
 #endif
 
 namespace FTDI {
+
+  #if !defined(CLCD_SPI_BUS) || defined(CLCD_USE_SOFT_SPI)
+    #define SPI_OBJ ::SPI
+  #else
+    extern SPIClass EVE_SPI;
+    #define SPI_OBJ EVE_SPI
+  #endif
+
   namespace SPI {
     #ifndef CLCD_USE_SOFT_SPI
       extern SPISettings spi_settings;
@@ -47,7 +55,7 @@ namespace FTDI {
       #ifdef CLCD_USE_SOFT_SPI
         return _soft_spi_xfer(0x00);
       #else
-        return ::SPI.transfer(0x00);
+        return SPI_OBJ.transfer(0x00);
       #endif
     };
 
@@ -55,7 +63,7 @@ namespace FTDI {
       #ifdef CLCD_USE_SOFT_SPI
         _soft_spi_send(val);
       #else
-        ::SPI.transfer(val);
+        SPI_OBJ.transfer(val);
       #endif
     };
 
@@ -108,14 +116,14 @@ namespace FTDI {
 
     template<bulk_write_op byte_op>
     void spi_write_bulk(const void *data, uint16_t len, uint8_t padding) {
-      const uint8_t* p = (const uint8_t *)data;
+      const uint8_t *p = (const uint8_t *)data;
       while (len--)     spi_send(byte_op(p++));
       while (padding--) spi_send(0);
     }
 
     template<bulk_write_op byte_op>
     void spi_write_bulk(const void *data, uint16_t len) {
-      const uint8_t* p = (const uint8_t *)data;
+      const uint8_t *p = (const uint8_t *)data;
       while (len--) spi_send(byte_op(p++));
     }
 
